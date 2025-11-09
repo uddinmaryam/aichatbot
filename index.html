@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mini ChatGPT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Mini ChatGPT</h1>
+      <span class="badge">HTML • CSS • JS</span>
+    </header>
+
+    <main class="messages" id="messages"></main>
+
+    <div class="composer">
+      <div class="typing-area">
+        <form action="#" class="typing-form" id="typing-form">
+          <div class="input-wrapper">
+            <input type="text" placeholder="Enter a prompt here" class="typing-input" id="prompt" required />
+          </div>
+          <button class="send-btn" type="submit">Send</button>
+        </form>
+        <div class="hint">Tip: Press <kbd>Enter</kbd> to send. Your chat is saved locally.</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
